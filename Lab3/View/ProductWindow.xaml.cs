@@ -10,19 +10,22 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Lab3.Model;
+using Lab3.ViewModel;
 
-namespace Lab3
+namespace Lab3.View
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour ProductWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ProductWindow : Window
     {
-        public MainWindow()
+        public ProductWindow()
         {
             InitializeComponent();
         }
+
+
     }
 }
